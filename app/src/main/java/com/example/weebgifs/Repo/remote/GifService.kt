@@ -1,6 +1,6 @@
 package com.example.weebgifs.Repo.remote
 
-import model.GifList
+import com.example.weebgifs.model.GifList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

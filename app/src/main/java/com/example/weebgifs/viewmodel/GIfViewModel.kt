@@ -7,8 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.example.weebgifs.Repo.GifRepo
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import model.GifList
-import retrofit2.Response
+import com.example.weebgifs.model.GifList
 
 class GIfViewModel: ViewModel() {
     private val _gifs = MutableLiveData<GifList>()

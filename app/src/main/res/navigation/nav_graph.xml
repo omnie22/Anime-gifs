@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/buttonListFragment">
+    <fragment
+        android:id="@+id/buttonListFragment"
+        android:name="com.example.weebgifs.View.ButtonListFragment"
+        android:label="ButtonListFragment">
+        <action
+            android:id="@+id/action_buttonListFragment_to_gifFragment"
+            app:destination="@id/gifFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gifFragment"
+        android:name="com.example.weebgifs.View.GifFragment"
+        android:label="fragment_item_image"
+        tools:layout="@layout/fragment_item_image">
+        <argument
+            android:name="gifList"
+            app:argType=".model.GifList" />
+        <action
+            android:id="@+id/action_gifFragment_to_bigGifFragment"
+            app:destination="@id/bigGifFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bigGifFragment"
+        android:name="com.example.weebgifs.View.BigGifFragment"
+        android:label="fragment_big_gif2"
+        tools:layout="@layout/fragment_big_gif2" >
+        <argument
+            android:name="gif"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -6,6 +6,12 @@
         <entry key="app/src/main/res/layout/activity_annie_gif_list.xml" value="0.19746376811594202" />
         <entry key="app/src/main/res/layout/activity_big_gif.xml" value="0.11875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/layout/fragment_big_gif.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_big_gif2.xml" value="0.18333333333333332" />
+        <entry key="app/src/main/res/layout/fragment_button_list.xml" value="0.115625" />
+        <entry key="app/src/main/res/layout/fragment_gif_list.xml" value="0.11875" />
+        <entry key="app/src/main/res/layout/fragment_item.xml" value="0.11875" />
+        <entry key="app/src/main/res/layout/fragment_item_image.xml" value="0.1802009908893805" />
         <entry key="app/src/main/res/layout/item_image.xml" value="0.19746376811594202" />
       </map>
     </option>

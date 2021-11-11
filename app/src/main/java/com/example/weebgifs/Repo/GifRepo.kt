@@ -1,7 +1,7 @@
 package com.example.weebgifs.Repo
 
 import com.example.weebgifs.Repo.remote.RetrofitInstance
-import model.GifList
+import com.example.weebgifs.model.GifList
 import retrofit2.Response
 
 object GifRepo {
